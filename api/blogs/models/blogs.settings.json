@@ -53,6 +53,15 @@
     "authors": {
       "via": "blogs",
       "collection": "author"
+    },
+    "ctaTitle": {
+      "type": "string"
+    },
+    "ctaDescription": {
+      "type": "richtext"
+    },
+    "publishDate": {
+      "type": "date"
     }
   }
 }

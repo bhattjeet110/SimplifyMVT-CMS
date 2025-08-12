@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
       connector: 'mongoose',
       settings: {
         client: 'mongo',
-        uri: env('DATABASE_URI', 'mongodb://127.0.0.1:27017/simplifymvt-CMS'),
+        uri: env('DATABASE_URI'),
       },
       options: {
         authenticationDatabase: null,
